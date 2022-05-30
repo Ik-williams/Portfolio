@@ -3,20 +3,20 @@
   <a href="http://{future-site-link}/" target="_blank">future-site-link</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/{future-image-link}" />
+  <img alt="Demo" src="./Images/GitReadme.png" />
 </div>
 
 <br/>
 
 ## Built With
 
-My personal portfolio <a href="http://soumya-jit.tech/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="#" target="_blank">Ik williams</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
 - React.js
 - CSS3
-- Webstorm
+- Visual Studio
 - Vercel
 
 ## Features
