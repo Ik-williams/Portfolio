@@ -8,13 +8,13 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title><span className="light-silver">{props.title}</span></Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+          <span className="light-silver">{props.description}</span>
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
+        <Button variant="secondary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+            View Project
         </Button>
       </Card.Body>
     </Card>
