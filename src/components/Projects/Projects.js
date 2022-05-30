@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="FeatherFax"
               description="A social media application where users can message each other, follow each other and comment, like and share user posts. The app also contains a new story feature."
-              link="https://github.com/Ik-williams/FeatherFax"
+              link="https://github.com/Ik-williams/featherfax"
             />
           </Col>
 
@@ -34,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="Amazon-Clone"
               description="An Amazon like E-Commerce store with full functionality. Users can sign up and checkout. The app is powered by Reactjs, Nodejs, Express, Firebase and Stripe."
-              link="https://github.com/Ik-williams/Amazon-Clone"
+              link="https://github.com/Ik-williams/amazon-clone"
             />
           </Col>
         </Row>
