@@ -151,7 +151,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: transparent !important;
+    background-color: rgb(214, 212, 208, 0.9) !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -179,6 +179,10 @@ button:focus {
 @media (max-width: 767px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
+  }
+
+  .navbar-nav .nav-link {
+    color: var(--imp-text-color) !important;
   }
 }
 
