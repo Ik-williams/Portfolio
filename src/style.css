@@ -334,8 +334,7 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 20px !important;
   background: rgba(214, 212, 208, 0.4) !important;
 }
 
