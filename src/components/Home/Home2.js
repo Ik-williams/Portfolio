@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br /><span className="light-silver">I am fluent in</span>
               <i>
-                <b className="silver"> React.js, Javascript, Node.js and Python. </b>
+                <b className="silver"> React.js, Javascript, Node.js and Redux. </b>
               </i>
               <br />
               <br />
