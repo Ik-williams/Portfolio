@@ -2,9 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 //import Particle from "../Particle";
-import amazon from "../../Assets/Projects/Amazon-Clone.png";
-import featherfax from "../../Assets/Projects/FFHome.png";
-import covid from "../../Assets/Projects/Covid-19-Tracker.png";
+import amazon from "../../Assets/Projects/amazon-clone/Amazon-Clone.png";
+import featherfax from "../../Assets/Projects/featherfax/FFHome.png";
+import covid from "../../Assets/Projects/covid-19-tracker/Covid-19-Tracker.png";
+import tourer from "../../Assets/Projects/tourer-app/Tourer-Home.png";
 
 function Projects() {
   return (
@@ -26,15 +27,14 @@ function Projects() {
               link="https://github.com/Ik-williams/featherfax"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={amazon}
-              title="Amazon-Clone"
-              description="An Amazon like E-Commerce store with full functionality. Users can sign up and checkout. The app is powered by Reactjs, Nodejs, Express, Firebase and Stripe."
-              link="https://github.com/Ik-williams/amazon-clone"
+              imgPath={tourer}
+              title="Tourer-App"
+              description="A social media application for sharing your travel/journey details with the world."
+              link="https://github.com/Ik-williams/tourer-app"
             />
-          </Col>
+          </Col> 
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -42,6 +42,14 @@ function Projects() {
               title="Covid-19-Tracker"
               description="An app for tracking covid-19 cases worldwide. The app is powered by React.js, Leaflet, Chart.js and Firebase."
               link="https://github.com/Ik-williams/covid-19-tracker"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazon}
+              title="Amazon-Clone"
+              description="An Amazon like E-Commerce store with full functionality. Users can sign up and checkout. The app is powered by Reactjs, Nodejs, Express, Firebase and Stripe."
+              link="https://github.com/Ik-williams/amazon-clone"
             />
           </Col>
         </Row>
