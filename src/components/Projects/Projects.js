@@ -6,6 +6,7 @@ import amazon from "../../Assets/Projects/amazon-clone/Amazon-Clone.png";
 import featherfax from "../../Assets/Projects/featherfax/FFHome.png";
 import covid from "../../Assets/Projects/covid-19-tracker/Covid-19-Tracker.png";
 import tourer from "../../Assets/Projects/tourer-app/Tourer-Home.png";
+import personnel from "../../Assets/Projects/personnel-manager/Personnel-Manager.png";
 
 function Projects() {
   return (
@@ -42,6 +43,14 @@ function Projects() {
               title="Covid-19-Tracker"
               description="An app for tracking covid-19 cases worldwide. The app is powered by React.js, Leaflet, Chart.js and Firebase."
               link="https://github.com/Ik-williams/covid-19-tracker"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={personnel}
+              title="Personnel-Manager"
+              description="A simple management app for personnels of any type of Company/Organisation."
+              link="https://github.com/Ik-williams/personnel-manager"
             />
           </Col>
           <Col md={4} className="project-card">
