@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={featherfax}
               title="FeatherFax"
-              description="A social media application where users can message each other, follow each other and comment, like and share user posts. The app also contains a new story feature."
+              description="A next-gen web application where users can message each other, follow each other and comment, like and share user posts. The app also contains a new story feature."
               link="https://github.com/Ik-williams/featherfax"
             />
           </Col>
